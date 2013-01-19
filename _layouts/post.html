@@ -1,11 +1,15 @@
 ---
 layout: default
 ---
-<article id="post" class="row">
+<article>
+  <section class="big-picture">
+    <img src="{{ site.baseurl}}/pub/img/{{ page.big_picture }}" alt="{{ page.big_picture_alt }}" />
+  </section>
+
   <header class="row post-header">
     <h1 class="post-title">{{ page.title }}</h1>
     <h3 class="post-subtitle">{{ page.subtitle }}</h3>
-    <span>{{ page.date | date_to_string }}</span>
+    <h3 class="post-meta"><a href="{{ page.author_url }}" title="{{ page.author_name}}'s twitter">{{ page.author_name }}</a> - {{ page.date | date_to_string }}</h3>
   </header>
 
   {{ content }}

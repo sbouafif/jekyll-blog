@@ -1,8 +1,9 @@
 server:     true
 auto:       true
 
-baseurl:    /journal
 url:        http://localhost:4000
+baseurl:    /journal
+permalink:  /:title
 
 source:      .
 destination: ./_site

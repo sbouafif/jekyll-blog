@@ -1,3 +1,7 @@
+$(function() {
+  try{Typekit.load();}catch(e){}
+});
+
 var typekitBadge = 0;
 
 var removeTypekitBadge = setInterval(function() {

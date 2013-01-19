@@ -1,14 +1,20 @@
 ---
 layout: post
-title: Start making and stop consuming
+title: Start creating and stop consuming
 subtitle: Subtitle
-date: 2012-10-15 15:20:00
+date: 2013-01-19 20:00:00
+author_name: Slim Bouafif
+author_url: https://twitter.com/sbouafif
+description: An article about consumerism and how I ended up consuming and procrastinating too much without taking time to create 
+keywords: creating, consuming
+big_picture: bleeding-tv.jpg
+big_picture_alt: A TV leaking
+class: start-making
 ---
-<section class="row">
-
-div(twocol). &nbsp;
-
-<section class="sevencol">
+<section class="container">
+  <section class="row">
+    <section class="twocol"></section>
+    <section class="sevencol">
 p. As a child I didn't went that much to cinema, I wasn't the one saying "_Hey did you watch that new movie, that part is so hilarious..._". I just slowly noticed that the ones doing it were more appreciated than the ones who didn't. And I started envying the kids having plenty of Disney movies in VHS, saying to myself that one day I will too. Growing, my desire didn't change, owning plenty of video games or movies was still an .... 
 
 Describe myself a bit/grades
@@ -20,18 +26,21 @@ h2. _Hey man I just watched that movie, it's awesome!_
 Watching TV shows and movies were slowly becoming my main interest, the Internet was providing plenty of new media to watch when I wanted it. The releases were available way before it was in France (at least 1 year before for a TV, and it depends for the movies, some of them were released in theaters/dvd the same week in US and France, some others 1, 2, 6 months later or never released in France). I was in my undergrad years, and getting my daily dose of media was still unharmfull. Internet in France was one of the cheapest so downloading the latest shows didn't take much time. 
 
 A year or two later, I was owning a server in order to download my shows, which gave me access to some of the best torrent trackers that exists. A few minutes after my favorite show was aired it was automatically download to my server and I could watch it directly (without waiting to download it completely on my computer). At the time, I was watching 10/20 shows per week and still looking for unwatched shows or movies to give me the same ... as Lost. I could get one of 9000+ shows and 70.000+ movies. I was spending a lot of my free time watching tv shows and movies, it became an old habit.
+    </section>
+  </section>
 </section>
 
-p(picture-break). !{{ site.baseurl }}/pub/img/just-me-and-the-world.jpg(Just me and the World)!
+<section class="break-picture" style="background-image: url({{ site.baseurl }}/pub/img/just-me-and-the-world.jpg); background-repeat: no-repeat; background-position: 0 0;"></section>
 
-div(twocol). &nbsp;
-
-<section class="sevencol">
+<section class="container">
+  <section class="row">
+    <section class="twocol"></section>
+    <section class="sevencol">
 h2. Wait, I'll do this tomorrow
 
 --> Reflect on this - I spent my time doing nothing and enforcing my passiveness
 
 --> Let's start to make.
-</section>
-
+    </section>
+  </section>
 </section>

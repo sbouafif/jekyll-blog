@@ -54,10 +54,13 @@ h2{
   margin-bottom: 1em;
 }
 h3 {
+  font-size: 1.8em;
   line-height: 1em;
   margin-top: 1em;
   margin-bottom: .5em;
 }
+
+
 /** GRID - 1140px - http://andytaylor.me/ **/
 .container { padding: 0 20px;}
 
@@ -116,9 +119,13 @@ img { height: auto;}
     padding-right: 20px;
   }
 }
-img.typekit-badge{ display: none;}
 
 /** ARTICLE **/
-.post-header { text-align: center;}
+.big-picture, .post-header { text-align: center;}
+.post-header { margin-bottom: 4em;}
 .post-title { font-size: 4.2em;}
-.post-subtitle { font-size: 2.2em; color: #999;}
+.post-subtitle { text-transform: uppercase; color: #999;}
+.post-meta a { color: #c1272d; text-decoration: none;}
+.break-picture { height: 480px; background-size: cover;}
+
+.start-making { background: #f3f2f2;}
