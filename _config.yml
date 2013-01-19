@@ -1,9 +1,10 @@
 server:     true
+safe:       false
 auto:       true
 
 url:        http://localhost:4000
 baseurl:    /journal
-permalink:  /:title
+permalink:  /:year-:month-:day/:title
 
 source:      .
 destination: ./_site
@@ -11,3 +12,7 @@ plugins:     ./_plugins
 
 markdown:   textile
 pygments:   true
+
+stylus:
+  compress: true
+  path: ./pub/css
