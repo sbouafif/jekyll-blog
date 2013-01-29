@@ -1,4 +1,7 @@
 /** GENERAL **/
+*
+  background-position: 0 0
+  background-repeat: no-repeat
 body
   background-color: #fff
   color: #333
@@ -6,6 +9,7 @@ body
   font-family: Georgia, Times, serif
   font-style: normal
   font-weight: 400
+  transition: .8s
 
 p, li, blockquote
   font-size: 1.8em
@@ -34,6 +38,36 @@ h3
   margin-top: 1em
   margin-bottom: .5em
 
+/** INDEX **/
+.posts .main-picture
+  background-size: cover
+  text-align: center
+  border: 5px #000 solid
+  border-left: 0px
+  border-right: 0px
+  &.loaded
+    transform: scale(1)
+    transition: .3s
+    box-shadow: 0 0 0 #000
+  &.loading
+    transform: scale(1.15)
+    transition: .3s
+    box-shadow: 0 0 20px #000
+  h2
+    display: inline
+  a
+    display: inline-block
+    padding: 130px 25%
+    color: #fff
+    font-size: 1.8em
+    line-height: 1.4em
+    text-shadow: #333 0 0 8px
+    text-decoration: none
+
+.article
+  display: none
+  position: absolute
+  top: 140px
 
 /** ARTICLE **/
 .big-picture, .post-header

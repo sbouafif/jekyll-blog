@@ -7,6 +7,7 @@ author_name: Slim Bouafif
 author_url: https://twitter.com/sbouafif
 description: An article about consumerism and how I ended up consuming and procrastinating too much without taking time to create 
 keywords: creating, consuming
+main_picture: just-me-and-the-world.jpg
 big_picture: bleeding-tv.jpg
 big_picture_alt: A TV leaking
 class: start-making

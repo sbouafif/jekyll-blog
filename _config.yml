@@ -3,7 +3,7 @@ safe:       false
 auto:       true
 
 url:        http://localhost:4000
-baseurl:    /journal
+#baseurl:    /journal
 permalink:  /:year-:month-:day/:title
 
 source:      .

@@ -4,9 +4,13 @@ title: Slim Bouafif
 ---
 <section id="home">
   <h1>Blog Posts</h1>
+  <section class="article"></section>
   <ul class="posts">
     {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+      <section class="main-picture" style="background-image: url({{ site.baseurl }}/pub/img/{{ post.main_picture }});">
+        <h2><a href="{{ site.baseurl }}{{ post.url }}/">{{ post.title }}</a></h2>
+        <span>{{ post.date | date_to_string }}</span>
+      </section>
     {% endfor %}
   </ul>
 </section>
